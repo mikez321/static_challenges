@@ -1,3 +1,12 @@
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body{
+  height: 100%;
+}
+
 h1 {
   background-color: rgb(190, 0, 0);
   color: white;
@@ -9,18 +18,18 @@ h1 {
 
 #loginText{
   position: absolute;
-  right: 0px;
-  top: 5px;
+  top:30px;
+  right: 30px;
   width: 60px;
   right: 0px;
   text-align: center;
-  background-color: rgb(190, 0,0);
   color: white;
   font-family: "Verdana", sans-serif;
   font-size: 15;
-  padding: 20;
   font-weight: bold;
+  padding-right: 35px;
 }
+
 
 #topLinks {
   position: relative;
@@ -42,12 +51,58 @@ h1 {
   padding: 15px;
 }
 
+#mainPage {
+  position: relative;
+  width: 70%;
+}
+
+#mainDenverMuseumImage{
+  width: 90%;
+  padding: 25px;
+}
+
+#sideNav {
+  position: absolute;
+  top: 120px;
+  left: 70%;
+  align-content: center;
+  width: 30%;
+}
+
+#sideNavHeaders {
+  padding-top: 25px;
+  padding-left: 15px;
+  font-family: "Verdana", sans-serif;
+  font-size: 15;
+  font-weight: bold;
+}
+
+.sideNavImages {
+  display: block;
+  padding-left: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+#infoHeader {
+  padding-left: 20px;
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
 
 h2 {
   font-family: "Verdana", sans-serif;
   font-size: 20;
   padding: 20;
   font-weight: bold;
+}
+
+#info{
+  padding: 25px;
+  width: 63%;
+  overflow: auto;
+  padding-bottom: 100px;
 }
 
 #denverArtTextBlock {
